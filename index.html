@@ -18,10 +18,10 @@
       referrerpolicy="no-referrer"
     />
     <title>Zadanie domowe nr:6</title>
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <div class="container header__help">
         <nav class="header__nav">
           <a href="index.html" class="logo__ws"
@@ -39,16 +39,16 @@
         </nav>
         <div class="header__kontakt">
           <a
-            class="header__link header__kontact__link"
+            class="header__link header__kontact--link"
             href="mailto:info@devstudio.com"
           >
-            <svg class="header__kontakt__icon" width="16" height="12">
+            <svg class="header__kontakt--icon" width="16" height="12">
               <use href="images/icons.svg#icon-envelope"></use>
             </svg>
             info@devstudio.com
           </a>
-          <a class="header__link header__kontact__link" href="tel:+48111111111">
-            <svg class="header__kontakt__icon" width="10" height="16">
+          <a class="header__link header__kontact--link" href="tel:+48111111111">
+            <svg class="header__kontakt--icon" width="10" height="16">
               <use href="images/icons.svg#icon-smartphone"></use>
             </svg>
             +48 111 111 111
@@ -59,10 +59,14 @@
     <main>
       <section class="section background__header">
         <div class="container">
-          <h1 class="title__section__h1">
+          <h1 class="title__section--h1">
             EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU
           </h1>
-          <button type="button" class="title__section__button" data-modal-open>
+          <button
+            type="button"
+            class="button title__section--button"
+            data-modal-open
+          >
             Zamów usługe
           </button>
         </div>
@@ -123,26 +127,26 @@
           </ul>
         </div>
       </section>
-      <section class="section padding__top__0">
+      <section class="section padding__top--0">
         <div class="container">
-          <h2 class="what__we__do__h2">Czym się zajmujemy</h2>
-          <ul class="what__we__do__list">
+          <h2 class="what__we__do--h2">Czym się zajmujemy</h2>
+          <ul class="what__we__do--list">
             <li class="wwd__list">
-              <div class="wwd__list__box">
+              <div class="wwd__list--box">
                 <img src="images/GoIT1.jpg" alt="Praca pszy komputerze" />
-                <p class="wwd__list__p">APLIKACJE KOMPUTEROWE</p>
+                <p class="wwd__list--p">APLIKACJE KOMPUTEROWE</p>
               </div>
             </li>
             <li class="wwd__list">
-              <div class="wwd__list__box">
+              <div class="wwd__list--box">
                 <img src="images/GoIT2.jpg" alt="Praca pszy tablecie" />
-                <p class="wwd__list__p">ROZWIĄZANIA GRAFICZNE</p>
+                <p class="wwd__list--p">ROZWIĄZANIA GRAFICZNE</p>
               </div>
             </li>
             <li class="wwd__list">
-              <div class="wwd__list__box">
+              <div class="wwd__list--box">
                 <img src="images/GoIT3.jpg" alt="Praca pszy Telefonie" />
-                <p class="wwd__list__p">APLIKACJE MOBILNE</p>
+                <p class="wwd__list--p">APLIKACJE MOBILNE</p>
               </div>
             </li>
           </ul>
@@ -150,8 +154,8 @@
       </section>
       <section class="our__team section">
         <div class="container">
-          <h2 class="our__team__h2">Nasz zespół</h2>
-          <ul class="our__team__ul">
+          <h2 class="our__team--h2">Nasz zespół</h2>
+          <ul class="our__team--ul">
             <li class="team__list">
               <img
                 src="images/john1.jpg"
@@ -160,9 +164,9 @@
                 height="260"
               />
               <div>
-                <h3 class="team__list__h3">John Doe</h3>
-                <p class="team__list__p">Product Designer</p>
-                <ul class="social__icon__box">
+                <h3 class="team__list--h3">John Doe</h3>
+                <p class="team__list--p">Product Designer</p>
+                <ul class="social__icon--box">
                   <li>
                     <a href="#" class="social__icon">
                       <svg width="20" height="20">
@@ -202,33 +206,33 @@
                 height="260"
               />
               <div>
-                <h3 class="team__list__h3">John Doe</h3>
-                <p class="team__list__p">Frontend Developer</p>
-                <ul class="social__icon__box">
+                <h3 class="team__list--h3">John Doe</h3>
+                <p class="team__list--p">Frontend Developer</p>
+                <ul class="social__icon--box">
                   <li>
                     <a href="#" class="social__icon">
-                      <svg class=".current__color__svg" width="20" height="20">
+                      <svg class=".current__color--svg" width="20" height="20">
                         <use href="images/icons.svg#icon-instagram-2"></use>
                       </svg>
                     </a>
                   </li>
                   <li>
                     <a href="#" class="social__icon">
-                      <svg class=".current__color__svg" width="20" height="20">
+                      <svg class=".current__color--svg" width="20" height="20">
                         <use href="images/icons.svg#icon-twitter-1"></use>
                       </svg>
                     </a>
                   </li>
                   <li>
                     <a href="#" class="social__icon">
-                      <svg class=".current__color__svg" width="20" height="20">
+                      <svg class=".current__color--svg" width="20" height="20">
                         <use href="images/icons.svg#icon-facebook-1"></use>
                       </svg>
                     </a>
                   </li>
                   <li>
                     <a href="#" class="social__icon">
-                      <svg class=".current__color__svg" width="20" height="20">
+                      <svg class=".current__color--svg" width="20" height="20">
                         <use href="images/icons.svg#icon-linkedin-1"></use>
                       </svg>
                     </a>
@@ -244,9 +248,9 @@
                 height="260"
               />
               <div>
-                <h3 class="team__list__h3">John Doe</h3>
-                <p class="team__list__p">Marketing</p>
-                <ul class="social__icon__box">
+                <h3 class="team__list--h3">John Doe</h3>
+                <p class="team__list--p">Marketing</p>
+                <ul class="social__icon--box">
                   <li>
                     <a href="#" class="social__icon">
                       <svg width="20" height="20">
@@ -286,9 +290,9 @@
                 height="260"
               />
               <div>
-                <h3 class="team__list__h3">John Doe</h3>
-                <p class="team__list__p">UI Designer</p>
-                <ul class="social__icon__box">
+                <h3 class="team__list--h3">John Doe</h3>
+                <p class="team__list--p">UI Designer</p>
+                <ul class="social__icon--box">
                   <li>
                     <a href="#" class="social__icon">
                       <svg width="20" height="20">
@@ -325,46 +329,46 @@
       </section>
       <section class="section">
         <div class="container">
-          <h2 class="our__team__h2">Nasi klienci</h2>
+          <h2 class="our__team--h2">Nasi klienci</h2>
           <ul class="all__clients">
             <li>
-              <a href="#" class="all__clients__a">
-                <svg class=".current__color__svg" width="106" height="60">
+              <a href="#" class="all__clients--a">
+                <svg class=".current__color--svg" width="106" height="60">
                   <use href="images/icons.svg#icon-Logo"></use>
                 </svg>
               </a>
             </li>
             <li>
-              <a href="#" class="all__clients__a">
-                <svg class=".current__color__svg" width="106" height="60">
+              <a href="#" class="all__clients--a">
+                <svg class=".current__color--svg" width="106" height="60">
                   <use href="images/icons.svg#icon-Logo-1"></use>
                 </svg>
               </a>
             </li>
             <li>
-              <a href="#" class="all__clients__a">
-                <svg class=".current__color__svg" width="106" height="60">
+              <a href="#" class="all__clients--a">
+                <svg class=".current__color--svg" width="106" height="60">
                   <use href="images/icons.svg#icon-Logo-2"></use>
                 </svg>
               </a>
             </li>
             <li>
-              <a href="#" class="all__clients__a">
-                <svg class=".current__color__svg" width="106" height="60">
+              <a href="#" class="all__clients--a">
+                <svg class=".current__color--svg" width="106" height="60">
                   <use href="images/icons.svg#icon-Logo-5"></use>
                 </svg>
               </a>
             </li>
             <li>
-              <a href="#" class="all__clients__a">
-                <svg class=".current__color__svg" width="106" height="60">
+              <a href="#" class="all__clients--a">
+                <svg class=".current__color--svg" width="106" height="60">
                   <use href="images/icons.svg#icon-Logo-3"></use>
                 </svg>
               </a>
             </li>
             <li>
-              <a href="#" class="all__clients__a">
-                <svg class=".current__color__svg" width="106" height="60">
+              <a href="#" class="all__clients--a">
+                <svg class=".current__color--svg" width="106" height="60">
                   <use href="images/icons.svg#icon-Logo-4"></use>
                 </svg>
               </a>
@@ -373,13 +377,13 @@
         </div>
       </section>
     </main>
-    <footer>
+    <footer class="footer">
       <div class="container footer__box">
         <div>
-          <a href="index.html" class="logo__ws logo__ws__white"
+          <a href="index.html" class="logo__ws logo__ws--white"
             ><span class="logo__color">Web</span>Studio</a
           >
-          <address>
+          <address class="address">
             <ul>
               <li class="address__margin">
                 <a
@@ -402,8 +406,8 @@
           </address>
         </div>
         <div>
-          <h3 class="push__it__h3">DOŁĄCZ DO NAS</h3>
-          <ul class="social__icon__box">
+          <h3 class="push__it--h3">DOŁĄCZ DO NAS</h3>
+          <ul class="social__icon--box">
             <li>
               <a href="#" class="social__icon footer__icon"
                 ><svg width="20" height="20">
@@ -435,24 +439,24 @@
           </ul>
         </div>
         <form>
-          <label for="newsletter_email" class="news__login__text"
+          <label for="newsletter_email" class="news__login"
             >ZAPISZ SIĘ DO NEWSLETTERA</label
           >
-          <div class="news__login__part">
+          <div class="news__login--part">
             <input
               type="email"
               name="newsletter"
               id="newsletter-email"
               placeholder="E-mail"
-              class="news__login__input"
+              class="news__login--input"
             />
             <button
               type="submit"
-              class="title__section__button news__login__button"
+              class="title__section--button news__login--button"
             >
               Zapisz się
             </button>
-            <svg class="news__login__svg" width="24" height="24">
+            <svg class="news__login--svg" width="24" height="24">
               <use href="images/icons.svg#icon-icon-send"></use>
             </svg>
           </div>
@@ -500,7 +504,7 @@
             <a class="regulation" href="#"> Regulamin</a> i
             <a class="regulation" href="#"> Politykę Prywatności. </a>
           </label>
-          <button type="submit" class="title__section__button send__button">
+          <button type="submit" class="title__section--button send__button">
             Wyślij
           </button>
         </form>
